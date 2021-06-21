@@ -1,0 +1,521 @@
+﻿namespace TokoSakuraBaru.Laporan
+{
+    partial class LaporanPengadaan
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LaporanPengadaan));
+            this.btnTampil = new System.Windows.Forms.Button();
+            this.tglakhir = new System.Windows.Forms.DateTimePicker();
+            this.tglawal = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.text = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.separator = new System.Windows.Forms.Label();
+            this.btnLaba = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnLaporanPengadaan = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnLaporan = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnPengadaanBarang = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnKaryawan = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.btnGolKaryawan = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnDashboard = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btnTampil
+            // 
+            this.btnTampil.BackColor = System.Drawing.Color.LightCoral;
+            this.btnTampil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTampil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTampil.ForeColor = System.Drawing.Color.Bisque;
+            this.btnTampil.Location = new System.Drawing.Point(687, 82);
+            this.btnTampil.Name = "btnTampil";
+            this.btnTampil.Size = new System.Drawing.Size(100, 27);
+            this.btnTampil.TabIndex = 143;
+            this.btnTampil.Text = "Tampilkan";
+            this.btnTampil.UseVisualStyleBackColor = false;
+            // 
+            // tglakhir
+            // 
+            this.tglakhir.Location = new System.Drawing.Point(466, 86);
+            this.tglakhir.Name = "tglakhir";
+            this.tglakhir.Size = new System.Drawing.Size(200, 20);
+            this.tglakhir.TabIndex = 142;
+            // 
+            // tglawal
+            // 
+            this.tglawal.Location = new System.Drawing.Point(141, 87);
+            this.tglawal.Name = "tglawal";
+            this.tglawal.Size = new System.Drawing.Size(181, 20);
+            this.tglawal.TabIndex = 141;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.LightCoral;
+            this.label4.Location = new System.Drawing.Point(27, 87);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(108, 18);
+            this.label4.TabIndex = 139;
+            this.label4.Text = "Tanggal Awal";
+            // 
+            // bunifuCustomLabel3
+            // 
+            this.bunifuCustomLabel3.AutoSize = true;
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.Bisque;
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(56, 10);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(628, 25);
+            this.bunifuCustomLabel3.TabIndex = 8;
+            this.bunifuCustomLabel3.Text = "Aplikasi Sakura  -  Halaman Manager - Laporan Pengadaan";
+            // 
+            // bunifuImageButton3
+            // 
+            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
+            this.bunifuImageButton3.ImageActive = null;
+            this.bunifuImageButton3.Location = new System.Drawing.Point(10, 7);
+            this.bunifuImageButton3.Name = "bunifuImageButton3";
+            this.bunifuImageButton3.Size = new System.Drawing.Size(40, 37);
+            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bunifuImageButton3.TabIndex = 9;
+            this.bunifuImageButton3.TabStop = false;
+            this.bunifuImageButton3.Zoom = 10;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.LightCoral;
+            this.label3.Location = new System.Drawing.Point(351, 87);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(109, 18);
+            this.label3.TabIndex = 140;
+            this.label3.Text = "Tanggal Akhir";
+            // 
+            // text
+            // 
+            this.text.AutoSize = true;
+            this.text.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text.ForeColor = System.Drawing.Color.LightCoral;
+            this.text.Location = new System.Drawing.Point(25, 22);
+            this.text.Name = "text";
+            this.text.Size = new System.Drawing.Size(223, 100);
+            this.text.TabIndex = 2;
+            this.text.Text = "Laporan Pengadaan\r\n\r\n\r\n\r\n";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel3.Controls.Add(this.btnTampil);
+            this.panel3.Controls.Add(this.tglakhir);
+            this.panel3.Controls.Add(this.tglawal);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.separator);
+            this.panel3.Controls.Add(this.text);
+            this.panel3.Location = new System.Drawing.Point(281, 55);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1182, 759);
+            this.panel3.TabIndex = 123;
+            // 
+            // separator
+            // 
+            this.separator.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.separator.BackColor = System.Drawing.Color.SaddleBrown;
+            this.separator.Location = new System.Drawing.Point(27, 65);
+            this.separator.Name = "separator";
+            this.separator.Size = new System.Drawing.Size(975, 1);
+            this.separator.TabIndex = 4;
+            // 
+            // btnLaba
+            // 
+            this.btnLaba.Activecolor = System.Drawing.Color.Transparent;
+            this.btnLaba.BackColor = System.Drawing.Color.LightCoral;
+            this.btnLaba.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLaba.BorderRadius = 0;
+            this.btnLaba.ButtonText = "   Laporan Laba Bersih";
+            this.btnLaba.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnLaba.DisabledColor = System.Drawing.Color.DarkGray;
+            this.btnLaba.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnLaba.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnLaba.Iconimage")));
+            this.btnLaba.Iconimage_right = null;
+            this.btnLaba.Iconimage_right_Selected = null;
+            this.btnLaba.Iconimage_Selected = null;
+            this.btnLaba.IconMarginLeft = 11;
+            this.btnLaba.IconMarginRight = 0;
+            this.btnLaba.IconRightVisible = true;
+            this.btnLaba.IconRightZoom = 0D;
+            this.btnLaba.IconVisible = true;
+            this.btnLaba.IconZoom = 40D;
+            this.btnLaba.IsTab = true;
+            this.btnLaba.Location = new System.Drawing.Point(0, 513);
+            this.btnLaba.Margin = new System.Windows.Forms.Padding(0);
+            this.btnLaba.Name = "btnLaba";
+            this.btnLaba.Normalcolor = System.Drawing.Color.LightCoral;
+            this.btnLaba.OnHovercolor = System.Drawing.Color.LightCoral;
+            this.btnLaba.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnLaba.selected = false;
+            this.btnLaba.Size = new System.Drawing.Size(325, 50);
+            this.btnLaba.TabIndex = 32;
+            this.btnLaba.Text = "   Laporan Laba Bersih";
+            this.btnLaba.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaba.Textcolor = System.Drawing.Color.PeachPuff;
+            this.btnLaba.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLaba.Click += new System.EventHandler(this.btnLaba_Click);
+            // 
+            // btnLaporanPengadaan
+            // 
+            this.btnLaporanPengadaan.Activecolor = System.Drawing.Color.Transparent;
+            this.btnLaporanPengadaan.BackColor = System.Drawing.Color.LightCoral;
+            this.btnLaporanPengadaan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLaporanPengadaan.BorderRadius = 0;
+            this.btnLaporanPengadaan.ButtonText = "   Laporan Pengadaan";
+            this.btnLaporanPengadaan.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnLaporanPengadaan.DisabledColor = System.Drawing.Color.DarkGray;
+            this.btnLaporanPengadaan.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnLaporanPengadaan.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnLaporanPengadaan.Iconimage")));
+            this.btnLaporanPengadaan.Iconimage_right = null;
+            this.btnLaporanPengadaan.Iconimage_right_Selected = null;
+            this.btnLaporanPengadaan.Iconimage_Selected = null;
+            this.btnLaporanPengadaan.IconMarginLeft = 11;
+            this.btnLaporanPengadaan.IconMarginRight = 0;
+            this.btnLaporanPengadaan.IconRightVisible = true;
+            this.btnLaporanPengadaan.IconRightZoom = 0D;
+            this.btnLaporanPengadaan.IconVisible = true;
+            this.btnLaporanPengadaan.IconZoom = 40D;
+            this.btnLaporanPengadaan.IsTab = true;
+            this.btnLaporanPengadaan.Location = new System.Drawing.Point(0, 463);
+            this.btnLaporanPengadaan.Margin = new System.Windows.Forms.Padding(0);
+            this.btnLaporanPengadaan.Name = "btnLaporanPengadaan";
+            this.btnLaporanPengadaan.Normalcolor = System.Drawing.Color.LightCoral;
+            this.btnLaporanPengadaan.OnHovercolor = System.Drawing.Color.LightCoral;
+            this.btnLaporanPengadaan.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnLaporanPengadaan.selected = false;
+            this.btnLaporanPengadaan.Size = new System.Drawing.Size(325, 50);
+            this.btnLaporanPengadaan.TabIndex = 31;
+            this.btnLaporanPengadaan.Text = "   Laporan Pengadaan";
+            this.btnLaporanPengadaan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaporanPengadaan.Textcolor = System.Drawing.Color.PeachPuff;
+            this.btnLaporanPengadaan.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLaporanPengadaan.Click += new System.EventHandler(this.btnLaporanPengadaan_Click);
+            // 
+            // btnLaporan
+            // 
+            this.btnLaporan.Activecolor = System.Drawing.Color.Transparent;
+            this.btnLaporan.BackColor = System.Drawing.Color.LightCoral;
+            this.btnLaporan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLaporan.BorderRadius = 0;
+            this.btnLaporan.ButtonText = "   Laporan Penjualan";
+            this.btnLaporan.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnLaporan.DisabledColor = System.Drawing.Color.DarkGray;
+            this.btnLaporan.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnLaporan.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnLaporan.Iconimage")));
+            this.btnLaporan.Iconimage_right = null;
+            this.btnLaporan.Iconimage_right_Selected = null;
+            this.btnLaporan.Iconimage_Selected = null;
+            this.btnLaporan.IconMarginLeft = 15;
+            this.btnLaporan.IconMarginRight = 0;
+            this.btnLaporan.IconRightVisible = true;
+            this.btnLaporan.IconRightZoom = 0D;
+            this.btnLaporan.IconVisible = true;
+            this.btnLaporan.IconZoom = 30D;
+            this.btnLaporan.IsTab = true;
+            this.btnLaporan.Location = new System.Drawing.Point(0, 413);
+            this.btnLaporan.Margin = new System.Windows.Forms.Padding(0);
+            this.btnLaporan.Name = "btnLaporan";
+            this.btnLaporan.Normalcolor = System.Drawing.Color.LightCoral;
+            this.btnLaporan.OnHovercolor = System.Drawing.Color.LightCoral;
+            this.btnLaporan.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnLaporan.selected = false;
+            this.btnLaporan.Size = new System.Drawing.Size(325, 50);
+            this.btnLaporan.TabIndex = 30;
+            this.btnLaporan.Text = "   Laporan Penjualan";
+            this.btnLaporan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLaporan.Textcolor = System.Drawing.Color.PeachPuff;
+            this.btnLaporan.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.LightCoral;
+            this.panel1.Controls.Add(this.btnPengadaanBarang);
+            this.panel1.Controls.Add(this.btnLaba);
+            this.panel1.Controls.Add(this.btnLaporanPengadaan);
+            this.panel1.Controls.Add(this.btnLaporan);
+            this.panel1.Controls.Add(this.btnKaryawan);
+            this.panel1.Controls.Add(this.bunifuSeparator2);
+            this.panel1.Controls.Add(this.btnGolKaryawan);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.btnDashboard);
+            this.panel1.Location = new System.Drawing.Point(1, 55);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(283, 718);
+            this.panel1.TabIndex = 124;
+            // 
+            // btnPengadaanBarang
+            // 
+            this.btnPengadaanBarang.Activecolor = System.Drawing.Color.Transparent;
+            this.btnPengadaanBarang.BackColor = System.Drawing.Color.LightCoral;
+            this.btnPengadaanBarang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPengadaanBarang.BorderRadius = 0;
+            this.btnPengadaanBarang.ButtonText = "   Laporan Brg Kosong";
+            this.btnPengadaanBarang.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnPengadaanBarang.DisabledColor = System.Drawing.Color.DarkGray;
+            this.btnPengadaanBarang.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnPengadaanBarang.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnPengadaanBarang.Iconimage")));
+            this.btnPengadaanBarang.Iconimage_right = null;
+            this.btnPengadaanBarang.Iconimage_right_Selected = null;
+            this.btnPengadaanBarang.Iconimage_Selected = null;
+            this.btnPengadaanBarang.IconMarginLeft = 10;
+            this.btnPengadaanBarang.IconMarginRight = 0;
+            this.btnPengadaanBarang.IconRightVisible = true;
+            this.btnPengadaanBarang.IconRightZoom = 0D;
+            this.btnPengadaanBarang.IconVisible = true;
+            this.btnPengadaanBarang.IconZoom = 45D;
+            this.btnPengadaanBarang.IsTab = true;
+            this.btnPengadaanBarang.Location = new System.Drawing.Point(0, 563);
+            this.btnPengadaanBarang.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPengadaanBarang.Name = "btnPengadaanBarang";
+            this.btnPengadaanBarang.Normalcolor = System.Drawing.Color.LightCoral;
+            this.btnPengadaanBarang.OnHovercolor = System.Drawing.Color.LightCoral;
+            this.btnPengadaanBarang.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnPengadaanBarang.selected = false;
+            this.btnPengadaanBarang.Size = new System.Drawing.Size(341, 50);
+            this.btnPengadaanBarang.TabIndex = 33;
+            this.btnPengadaanBarang.Text = "   Laporan Brg Kosong";
+            this.btnPengadaanBarang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPengadaanBarang.Textcolor = System.Drawing.Color.PeachPuff;
+            this.btnPengadaanBarang.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPengadaanBarang.Click += new System.EventHandler(this.btnPengadaanBarang_Click);
+            // 
+            // btnKaryawan
+            // 
+            this.btnKaryawan.Activecolor = System.Drawing.Color.Transparent;
+            this.btnKaryawan.BackColor = System.Drawing.Color.LightCoral;
+            this.btnKaryawan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnKaryawan.BorderRadius = 0;
+            this.btnKaryawan.ButtonText = "    Kelola Karyawan";
+            this.btnKaryawan.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnKaryawan.DisabledColor = System.Drawing.Color.DarkGray;
+            this.btnKaryawan.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnKaryawan.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnKaryawan.Iconimage")));
+            this.btnKaryawan.Iconimage_right = null;
+            this.btnKaryawan.Iconimage_right_Selected = null;
+            this.btnKaryawan.Iconimage_Selected = null;
+            this.btnKaryawan.IconMarginLeft = 10;
+            this.btnKaryawan.IconMarginRight = 0;
+            this.btnKaryawan.IconRightVisible = true;
+            this.btnKaryawan.IconRightZoom = 0D;
+            this.btnKaryawan.IconVisible = true;
+            this.btnKaryawan.IconZoom = 45D;
+            this.btnKaryawan.IsTab = true;
+            this.btnKaryawan.Location = new System.Drawing.Point(0, 270);
+            this.btnKaryawan.Margin = new System.Windows.Forms.Padding(0);
+            this.btnKaryawan.Name = "btnKaryawan";
+            this.btnKaryawan.Normalcolor = System.Drawing.Color.LightCoral;
+            this.btnKaryawan.OnHovercolor = System.Drawing.Color.LightCoral;
+            this.btnKaryawan.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnKaryawan.selected = false;
+            this.btnKaryawan.Size = new System.Drawing.Size(325, 50);
+            this.btnKaryawan.TabIndex = 12;
+            this.btnKaryawan.Text = "    Kelola Karyawan";
+            this.btnKaryawan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKaryawan.Textcolor = System.Drawing.Color.PeachPuff;
+            this.btnKaryawan.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKaryawan.Click += new System.EventHandler(this.btnKaryawan_Click);
+            // 
+            // bunifuSeparator2
+            // 
+            this.bunifuSeparator2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(150)))), ((int)(((byte)(122)))));
+            this.bunifuSeparator2.LineThickness = 2;
+            this.bunifuSeparator2.Location = new System.Drawing.Point(10, 388);
+            this.bunifuSeparator2.Name = "bunifuSeparator2";
+            this.bunifuSeparator2.Size = new System.Drawing.Size(264, 10);
+            this.bunifuSeparator2.TabIndex = 23;
+            this.bunifuSeparator2.Transparency = 255;
+            this.bunifuSeparator2.Vertical = false;
+            // 
+            // btnGolKaryawan
+            // 
+            this.btnGolKaryawan.Activecolor = System.Drawing.Color.Transparent;
+            this.btnGolKaryawan.BackColor = System.Drawing.Color.LightCoral;
+            this.btnGolKaryawan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGolKaryawan.BorderRadius = 0;
+            this.btnGolKaryawan.ButtonText = "    Kelola Gol Karyawan";
+            this.btnGolKaryawan.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnGolKaryawan.DisabledColor = System.Drawing.Color.DarkGray;
+            this.btnGolKaryawan.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnGolKaryawan.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnGolKaryawan.Iconimage")));
+            this.btnGolKaryawan.Iconimage_right = null;
+            this.btnGolKaryawan.Iconimage_right_Selected = null;
+            this.btnGolKaryawan.Iconimage_Selected = null;
+            this.btnGolKaryawan.IconMarginLeft = 10;
+            this.btnGolKaryawan.IconMarginRight = 0;
+            this.btnGolKaryawan.IconRightVisible = true;
+            this.btnGolKaryawan.IconRightZoom = 0D;
+            this.btnGolKaryawan.IconVisible = true;
+            this.btnGolKaryawan.IconZoom = 47D;
+            this.btnGolKaryawan.IsTab = true;
+            this.btnGolKaryawan.Location = new System.Drawing.Point(0, 320);
+            this.btnGolKaryawan.Margin = new System.Windows.Forms.Padding(0);
+            this.btnGolKaryawan.Name = "btnGolKaryawan";
+            this.btnGolKaryawan.Normalcolor = System.Drawing.Color.LightCoral;
+            this.btnGolKaryawan.OnHovercolor = System.Drawing.Color.LightCoral;
+            this.btnGolKaryawan.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnGolKaryawan.selected = false;
+            this.btnGolKaryawan.Size = new System.Drawing.Size(325, 50);
+            this.btnGolKaryawan.TabIndex = 5;
+            this.btnGolKaryawan.Text = "    Kelola Gol Karyawan";
+            this.btnGolKaryawan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGolKaryawan.Textcolor = System.Drawing.Color.PeachPuff;
+            this.btnGolKaryawan.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGolKaryawan.Click += new System.EventHandler(this.btnGolKaryawan_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(30, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(211, 214);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.Activecolor = System.Drawing.Color.Transparent;
+            this.btnDashboard.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.btnDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnDashboard.BorderRadius = 0;
+            this.btnDashboard.ButtonText = "    Dashboard";
+            this.btnDashboard.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnDashboard.DisabledColor = System.Drawing.Color.DarkGray;
+            this.btnDashboard.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnDashboard.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Iconimage")));
+            this.btnDashboard.Iconimage_right = null;
+            this.btnDashboard.Iconimage_right_Selected = null;
+            this.btnDashboard.Iconimage_Selected = null;
+            this.btnDashboard.IconMarginLeft = 10;
+            this.btnDashboard.IconMarginRight = 0;
+            this.btnDashboard.IconRightVisible = true;
+            this.btnDashboard.IconRightZoom = 0D;
+            this.btnDashboard.IconVisible = true;
+            this.btnDashboard.IconZoom = 45D;
+            this.btnDashboard.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.btnDashboard.IsTab = true;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 220);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(0);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnDashboard.OnHovercolor = System.Drawing.Color.Transparent;
+            this.btnDashboard.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnDashboard.selected = false;
+            this.btnDashboard.Size = new System.Drawing.Size(325, 50);
+            this.btnDashboard.TabIndex = 14;
+            this.btnDashboard.Text = "    Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.Textcolor = System.Drawing.Color.PeachPuff;
+            this.btnDashboard.TextFont = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSalmon;
+            this.panel2.Controls.Add(this.bunifuCustomLabel3);
+            this.panel2.Controls.Add(this.bunifuImageButton3);
+            this.panel2.Location = new System.Drawing.Point(1, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1370, 53);
+            this.panel2.TabIndex = 122;
+            // 
+            // LaporanPengadaan
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "LaporanPengadaan";
+            this.Text = "LaporanPengadaan";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnTampil;
+        private System.Windows.Forms.DateTimePicker tglakhir;
+        private System.Windows.Forms.DateTimePicker tglawal;
+        private System.Windows.Forms.Label label4;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label text;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label separator;
+        private Bunifu.Framework.UI.BunifuFlatButton btnLaba;
+        private Bunifu.Framework.UI.BunifuFlatButton btnLaporanPengadaan;
+        private Bunifu.Framework.UI.BunifuFlatButton btnLaporan;
+        private System.Windows.Forms.Panel panel1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnKaryawan;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
+        private Bunifu.Framework.UI.BunifuFlatButton btnGolKaryawan;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnDashboard;
+        private System.Windows.Forms.Panel panel2;
+        private Bunifu.Framework.UI.BunifuFlatButton btnPengadaanBarang;
+    }
+}

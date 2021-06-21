@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace TokoSakuraBaru.Transaksi
+{
+    public partial class PenukaranHadiah : Form
+    {
+        public PenukaranHadiah()
+        {
+            InitializeComponent();
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            Kasir ksr = new Kasir();
+            ksr.Show();
+        }
+
+        private void btnJenisMember_Click(object sender, EventArgs e)
+        {
+            Master.KelolaJenisMember kjm = new Master.KelolaJenisMember();
+            kjm.Show();
+        }
+
+        private void btnMember_Click(object sender, EventArgs e)
+        {
+            Master.KelolaMember km = new Master.KelolaMember();
+            km.Show();
+        }
+
+        private void btnHadiah_Click(object sender, EventArgs e)
+        {
+            Master.KelolaHadiah kh = new Master.KelolaHadiah();
+            kh.Show();
+        }
+
+        private void btnPenjualan_Click(object sender, EventArgs e)
+        {
+            Transaksi.PenjualanBarang pb = new Transaksi.PenjualanBarang();
+            pb.Show();
+        }
+
+        private void btnPembuatanMember_Click(object sender, EventArgs e)
+        {
+            Transaksi.PembuatanMember pm = new Transaksi.PembuatanMember();
+            pm.Show();
+        }
+
+    }
+}
